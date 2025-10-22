@@ -138,7 +138,7 @@ export default function Home() {
 						</div>
 
 						<SectionTitle big accentText="Hi there! I'm">
-							Nathan Wang
+							Duong Nguyen
 						</SectionTitle>
 						<div className="h-4 sm:h-0"></div>
 						<div className={sectionBodyClasses}>
@@ -160,24 +160,16 @@ export default function Home() {
 						</div>
 						<div className="h-6 md:h-8 xl:h-16"></div>
 						<div className="font-mono uppercase text-slate-400 text-sm sm:text-base">
-							<a className={fancyLinkClasses} href="mailto:nathan.r.wang@gmail.com" target="_blank">
+							<a className={fancyLinkClasses} href="mailto:elegantmoon.try@gmail.com" target="_blank">
 								Email
 							</a>{' '}
 							·{' '}
 							<a
 								className={fancyLinkClasses}
-								href="https://github.com/thecodingwizard"
+								href="https://github.com/niceduongnguyen"
 								target="_blank"
 							>
 								Github
-							</a>{' '}
-							·{' '}
-							<a
-								className={fancyLinkClasses}
-								href="https://www.linkedin.com/in/nathan-r-wang/"
-								target="_blank"
-							>
-								Linkedin
 							</a>
 						</div>
 					</div>
@@ -281,13 +273,13 @@ export default function Home() {
 						Work Experience
 					</SectionTitle>
 					<div className="text-slate-400 sm:text-lg lg:text-xl leading-relaxed max-w-prose">
-						<p>
+						{/* <p>
 							To view my full work experience, please{' '}
-							<a href="https://www.linkedin.com/in/nathan-r-wang/" className={fancyLinkClasses}>
+							<a href="https://www.linkedin.com/in/duongnguyen/" className={fancyLinkClasses}>
 								visit my Linkedin page
 							</a>
 							.
-						</p>
+						</p> */}
 
 						<div className="h-6 lg:h-10"></div>
 
@@ -360,20 +352,12 @@ export default function Home() {
 						<p>I really enjoy meeting new people! Please feel free to reach out.</p>
 					</div>
 					<div className="font-mono text-slate-400 sm:text-lg md:text-xl mt-4 md:mt-6">
-						<a className={linkClasses} href="mailto:nathan.r.wang@gmail.com" target="_blank">
+						<a className={linkClasses} href="mailto:elegantmoon.try@gmail.com" target="_blank">
 							Email
 						</a>{' '}
 						·{' '}
-						<a className={linkClasses} href="https://github.com/thecodingwizard" target="_blank">
+						<a className={linkClasses} href="https://github.com/niceduongnguyen" target="_blank">
 							Github
-						</a>{' '}
-						·{' '}
-						<a
-							className={linkClasses}
-							href="https://www.linkedin.com/in/nathan-r-wang/"
-							target="_blank"
-						>
-							Linkedin
 						</a>
 					</div>
 				</div>
@@ -382,7 +366,7 @@ export default function Home() {
 
 				<div className={`${containerClasses} pb-6 md:pb-12 lg:pb-24`}>
 					<div className="font-mono text-slate-400 text-xs md:text-sm lg:text-base">
-						Copyright {new Date().getFullYear()} Nathan Wang.
+						Copyright {new Date().getFullYear()} Duong Nguyen.
 						<br />
 						This site is built with{' '}
 						<a className={linkClasses} href="https://nextjs.org/" target="_blank">
@@ -395,7 +379,7 @@ export default function Home() {
 						. View the source code on{' '}
 						<a
 							className={linkClasses}
-							href="https://github.com/thecodingwizard/personal-website"
+							href="https://github.com/niceduongnguyen/personal-website"
 							target="_blank"
 						>
 							Github

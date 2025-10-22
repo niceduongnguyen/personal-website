@@ -3,7 +3,7 @@ module.exports = {
     return [
       {
         source: '/usaco-classes',
-        destination: 'https://classes.thecodingwizard.me/',
+        destination: 'https://classes.niceduongnguyen.me/',
         permanent: false,
       }
     ]

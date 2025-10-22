@@ -21,7 +21,7 @@ export const ProjectsList = () => (
 		</Card>
 		<Card
 			title="Competitive Programming Solutions"
-			link="https://github.com/thecodingwizard/competitive-programming/"
+			link="https://github.com/niceduongnguyen/competitive-programming/"
 			tags={['Competitive Programming']}
 		>
 			This Github repository contains solutions to some of the 900+ competitive programming problems
@@ -45,7 +45,7 @@ export const ProjectsList = () => (
 		</Card>
 		<Card
 			title="Personal Website"
-			link="https://github.com/thecodingwizard/personal-website"
+			link="https://github.com/niceduongnguyen/personal-website"
 			tags={['React', 'Next.js', 'Tailwind']}
 		>
 			This site! Built with React, Next.js, and Tailwind CSS.

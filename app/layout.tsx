@@ -1,7 +1,7 @@
 import '../styles/globals.css';
 
 export const metadata = {
-	title: 'Nathan Wang (thecodingwizard)'
+	title: 'Duong Nguyen (niceduongnguyen)'
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

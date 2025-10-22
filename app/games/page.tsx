@@ -6,7 +6,7 @@ import { containerClasses, linkClasses, sectionBodyClasses } from 'components/st
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-	title: 'Games | Nathan Wang',
+	title: 'Games | Duong Nguyen',
 	robots: 'noinex'
 };
 
@@ -118,13 +118,13 @@ export default function Games() {
 						<Card title="Ricochet Robots" link="https://rrobots.tcw.sh/">
 							Move robots around, and think fast! Note: online game is very unpolished.
 						</Card>
-						<Card title="Wordle (Together)" link="https://wordle.thecodingwizard.me/">
+						<Card title="Wordle (Together)" link="https://wordle.niceduongnguyen.me/">
 							Custom Unlimited Wordle game that supports link sharing
 						</Card>
 						<Card title="For Sale" link="https://forsale.tcw.sh/">
 							3 - 6 players, light bidding game
 						</Card>
-						<Card title="Super Coin Box" link="https://thecodingwizard.github.io/super-coin-box/">
+						<Card title="Super Coin Box" link="https://niceduongnguyen.github.io/super-coin-box/">
 							Not actually a party game &mdash; just a simplistic one-player online video game!
 						</Card>
 						<Card title="Wavelength" link="https://longwave.web.app/">
@@ -138,7 +138,7 @@ export default function Games() {
 							Also looking to try Werewords, Bang! The Dice Game, Cross Talk, Floor Plan, or other
 							miscellaneous roll and write games. Suggestions?{' '}
 							<a
-								href="mailto:nathan.r.wang@gmail.com"
+								href="mailto:elegantmoon.try@gmail.com"
 								target="_blank"
 								rel="noreferrer"
 								className={linkClasses}
