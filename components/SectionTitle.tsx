@@ -1,4 +1,4 @@
-import { sectionTitleBigClasses, sectionTitleClasses } from './styles';
+import { sectionTitleBigClasses, sectionTitleClasses } from '../utils/styles';
 
 export const SectionTitle = ({
 	accentText,
