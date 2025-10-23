@@ -12,22 +12,6 @@ export const ProjectsList = () => (
 			resources aimed to bring contestants from Bronze to Platinum and beyond.
 		</Card>
 		<Card
-			title="Competitive Programming Initiative"
-			link="https://joincpi.org/"
-			tags={['Volunteering']}
-		>
-			I'm the founder of the Competitive Programming Initiative, a student-run nonprofit
-			organization dedicated to promoting competitive programming amongst students.
-		</Card>
-		<Card
-			title="Competitive Programming Solutions"
-			link="https://github.com/niceduongnguyen/competitive-programming/"
-			tags={['Competitive Programming']}
-		>
-			This Github repository contains solutions to some of the 900+ competitive programming problems
-			I've solved!
-		</Card>
-		<Card
 			title="Realtime IDE"
 			link="https://github.com/cpinitiative/ide"
 			tags={['Svelte', 'Firebase', 'CRDT']}
