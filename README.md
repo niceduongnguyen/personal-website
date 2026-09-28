@@ -29,20 +29,16 @@ To run the project locally:
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/your-username/your-repo-name.git
+git clone https://github.com/your-username/personal-website.git
 
 # 2. Navigate to the project directory
-cd your-repo-name
+cd personal-website
 
 # 3. Install dependencies
 npm install
-# or
-yarn install
 
 # 4. Start the development server
 npm run dev
-# or
-yarn dev
 
 # 5. Then open your browser and go to:
 👉 http://localhost:3000
