@@ -1,8 +1,7 @@
 'use client';
 import { FormEvent, useState } from 'react';
 import { createLink } from './actions';
-import CheckCircleIcon from '@heroicons/react/solid/CheckCircleIcon';
-import { XCircleIcon } from '@heroicons/react/solid';
+import { CheckCircle, XCircle } from '@heroicons/react/solid';
 
 export default function NewLinkForm() {
 	const [pending, setPending] = useState(false);
@@ -90,7 +89,7 @@ export default function NewLinkForm() {
 				<div className="rounded-md bg-green-400/10 p-4">
 					<div className="flex">
 						<div className="flex-shrink-0">
-							<CheckCircleIcon className="h-5 w-5 text-green-600" aria-hidden="true" />
+							<CheckCircle className="h-5 w-5 text-green-600" aria-hidden="true" />
 						</div>
 						<div className="ml-3">
 							<h3 className="text-sm font-medium text-green-200">Link Created</h3>
@@ -117,7 +116,7 @@ export default function NewLinkForm() {
 				<div className="rounded-md bg-red-400/10 p-4">
 					<div className="flex">
 						<div className="flex-shrink-0">
-							<XCircleIcon className="h-5 w-5 text-red-600" aria-hidden="true" />
+							<XCircle className="h-5 w-5 text-red-600" aria-hidden="true" />
 						</div>
 						<div className="ml-3">
 							<h3 className="text-sm font-medium text-red-200">
