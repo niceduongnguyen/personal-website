@@ -1,5 +1,5 @@
-import { Card } from 'components/CardGrid/Card';
-import { CardGrid } from 'components/CardGrid/CardGrid';
+import { Card } from '@/components/CardGrid/Card';
+import { CardGrid } from '@/components/CardGrid/CardGrid';
 
 export const ProjectsList = () => (
 	<CardGrid>

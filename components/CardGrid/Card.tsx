@@ -3,8 +3,8 @@
 import Link from 'next/link';
 import AES from 'crypto-js/aes.js';
 import Utf8 from 'crypto-js/enc-utf8.js';
-import SpotlightCard from 'components/SpotlightCard';
-import GradientBorderCard from 'components/GradientBorderCard';
+import SpotlightCard from '@/components/SpotlightCard';
+import GradientBorderCard from '@/components/GradientBorderCard';
 
 const cardContainerClasses = 'shadow-md shadow-2xl flex flex-col';
 const cardClasses = 'flex flex-col p-4 sm:p-6 bg-slate-900 flex-1 border border-white/10';
