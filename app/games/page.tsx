@@ -1,8 +1,8 @@
 import Link from 'next/link';
-import { SectionTitle } from 'components/SectionTitle';
-import { CardGrid } from 'components/CardGrid/CardGrid';
-import { Card } from 'components/CardGrid/Card';
-import { containerClasses, linkClasses, sectionBodyClasses } from 'utils/styles';
+import { SectionTitle } from '@/components/SectionTitle';
+import { CardGrid } from '@/components/CardGrid/CardGrid';
+import { Card } from '@/components/CardGrid/Card';
+import { containerClasses, linkClasses, sectionBodyClasses } from '@/utils/styles';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {

@@ -1,9 +1,9 @@
-import { SectionTitle } from 'components/SectionTitle';
-import { LinkToSection } from 'components/Index/LinkToSection';
-import { ProjectsList } from 'components/Index/ProjectsList';
-import { Achievements } from 'components/Index/Achievements';
-import { BackgroundSvg } from 'components/Assets/BackgroundSvg';
-import { containerClasses, fancyLinkClasses, linkClasses, sectionBodyClasses } from 'utils/styles';
+import { SectionTitle } from '@/components/SectionTitle';
+import { LinkToSection } from '@/components/Index/LinkToSection';
+import { ProjectsList } from '@/components/Index/ProjectsList';
+import { Achievements } from '@/components/Index/Achievements';
+import { BackgroundSvg } from '@/components/Assets/BackgroundSvg';
+import { containerClasses, fancyLinkClasses, linkClasses, sectionBodyClasses } from '@/utils/styles';
 
 export default function Home() {
 	return (
