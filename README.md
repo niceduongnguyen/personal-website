@@ -2,6 +2,8 @@
 
 A modern, responsive personal website showcasing my portfolio, projects, and interests. Designed for performance, accessibility, and simplicity.
 
+![contact-me](./sc.png)
+
 ---
 
 ### 🧰 Tech Stack
