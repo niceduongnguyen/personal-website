@@ -12,15 +12,14 @@ export default function GradientBorderCard({ children, className = 'p-8' }) {
 
 					'--bg-color': 'linear-gradient(rgb(var(--slate-950)), rgb(var(--slate-950)))',
 					'--border-color': `linear-gradient(var(--angle),
-            rgb(var(--accent) / 0.8) 0%,
-            rgb(var(--accent) / 0.3) 33.33%,
-            rgb(var(--accent) / 0.14) 66.67%,
-            rgb(var(--blue) / 0.5) 100%)
-          `
+						rgb(var(--accent) / 0.8) 0%,
+						rgb(var(--accent) / 0.3) 33.33%,
+						rgb(var(--accent) / 0.14) 66.67%,
+						rgb(var(--blue) / 0.5) 100%)
+					`
 				} as CSSProperties
 			}
-			className={`w-full border ${className} [--angle:145deg]
-        [border-image:var(--border-color)_1]`}
+			className={`w-full border ${className} [--angle:145deg] [border-image:var(--border-color)_1]`}
 		>
 			{children}
 		</div>

@@ -1,7 +1,7 @@
 'use client';
 import { FormEvent, useState } from 'react';
-import { createLink } from './actions';
 import { CheckCircle, XCircle } from '@heroicons/react/solid';
+import { createLink } from './actions';
 
 export default function NewLinkForm() {
 	const [pending, setPending] = useState(false);

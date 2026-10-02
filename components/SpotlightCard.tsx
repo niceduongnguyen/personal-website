@@ -1,6 +1,6 @@
+import { MouseEvent } from 'react';
 import classNames from 'classnames';
 import { motion, useMotionTemplate, useMotionValue } from 'framer-motion';
-import { MouseEvent } from 'react';
 
 // Thanks Build UI Recipes!
 export default function SpotlightCard({
